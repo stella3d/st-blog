@@ -3,5 +3,7 @@ theme: jekyll-theme-midnight
 title: simulacra tools
 description: stella cannefax's blog
 
-
-posts: test-post
+posts: 
+  - test-post:
+    url: test-post
+    title: test post
