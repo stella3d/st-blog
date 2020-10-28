@@ -5,5 +5,5 @@ description: stella cannefax's blog
 
 posts: 
   - test-post:
-    url: test-post
-    title: test post
+      url: test-post
+      title: test post
