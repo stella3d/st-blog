@@ -30,3 +30,13 @@ class Demo
 }
 
 ```
+
+### JS highlighting
+```js
+const nice = 69;
+
+function double(a) {
+  return a * 2;
+}
+```
+
