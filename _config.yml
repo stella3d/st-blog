@@ -9,3 +9,6 @@ posts:
   test-post:
     url: test-post
     title: test post
+  unity-webgl-interop-buffers:
+    url: unity-webgl-interop-buffers
+    title: Unity WebGL Interop - Buffers
