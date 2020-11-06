@@ -6,7 +6,7 @@ title: simulacra tools
 description: stella cannefax's blog
 
 posts: 
-  test-post:
+  _posts/test-post:
     url: test-post
     title: test post
   _posts/unity-webgl-interop-buffers:
