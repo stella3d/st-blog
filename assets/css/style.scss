@@ -113,10 +113,11 @@ header {
   // get rid of the "./ " the hacker theme adds
   h1:before {
     content: "   " !important;
-    font-size: 24px
+    font-size: 24px;
   }
   
   h2 {
     color: #a67cbb !important;
+    margin: 0 0 0px;
   }
 }
