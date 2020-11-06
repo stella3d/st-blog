@@ -30,7 +30,7 @@
       Other posts
       
       {% for post in site.posts %}
-        {% if post.url != page.url %}
+        {% if post.title != page.title %}
           <a href="{{ post.url }}">
             <h2>{{ post.title }}</h2>
           </a>
