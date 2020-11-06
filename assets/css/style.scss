@@ -88,7 +88,7 @@ $apple-blossom: #A95249;
 @import "{{ site.theme }}";
 
 // syntax highlighting theme
-//@import "monokai.css";
+@import "monokai.css";
 
 body {
   color: #bdf6ff !important;
