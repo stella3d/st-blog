@@ -3,10 +3,10 @@ theme: jekyll-theme-hacker
 title: simulacra tools
 description: stella cannefax's blog
 
-#posts: 
-#  _posts/2020-11-04-test-post:
-#    url: test-post
-#    title: test post
-#  _posts/unity-webgl-interop-buffers:
-#    url: unity-webgl-interop-buffers
-#    title: Unity WebGL Interop - Buffers
+posts: 
+  _posts/2020-11-04-test-post:
+    url: test-post
+    title: Test Post
+  _posts/unity-webgl-interop-buffers:
+    url: unity-webgl-interop-buffers
+    title: Unity WebGL Interop - Buffers
