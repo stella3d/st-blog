@@ -104,4 +104,10 @@ section #title p {
 
 header {
   border-bottom: 1px dashed #bdf6ff !important;
+  // get rid of the "./ " the hacker theme adds
+  h1:before {
+    content: "   " !important;
+    font-size: 24px
+  }
+}
 }
