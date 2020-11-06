@@ -1,10 +1,27 @@
 ---
 ---
 
+$plaintext: $alto !default;
+$string: #e6db74  !default;
+$literal: #ae81ff !default;
+$keyword: #66d9ef !default;
+$error-foreground: $cod-grey !default;
+$error-background: $apple-blossom !default;
+$comment: #75715e !default;
+$preprocessor: $rajah !default;
+$name-space: #f8f8f2 !default;
+$name-attribute: #a6e22e !default;
+$operator: #f92672 !default;
+$keyword-type: #66d9ef !default;
+$regex: #e6db74 !default;
+$string-escape: #ae81ff !default;
+$deleted: $apple-blossom !default;
+$header: $hippie-blue !default;
+
 @import "{{ site.theme }}";
 
 // syntax highlighting theme
-@import "monokai.css";
+//@import "monokai.css";
 
 body {
   color: #bdf6ff !important;
