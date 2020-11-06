@@ -26,6 +26,12 @@
       </section>
       
       <ul>
+        Categories
+        {% for category in site.categories %}
+          <h2>{{ category[0] }}</h2>
+        {% endfor %}
+        
+        Posts
         {% for post in site.posts %}
           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
