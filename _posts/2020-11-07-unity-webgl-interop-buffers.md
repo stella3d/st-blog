@@ -79,6 +79,7 @@ public struct MidiInputEvent
 }
 ```
 
+A class that wraps the javascript function calls, and incorporates them into the Unity lifecycle.
 
 ```csharp
 using System;
@@ -107,10 +108,8 @@ public class MessageBuffer
 }
 ```
 
-the class that actually handles the communication, and a component that incorporates it into the Unity lifecycle.
 
-
-### JS highlighting
+### Browser
 ```js
 const nice = 69;
 
