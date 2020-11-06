@@ -1,7 +1,7 @@
 ---
 ---
 
-.highlight {
+
 //$plaintext: $alto !default;
 $string: #e6db74  !default;
 $literal: #ae81ff !default;
@@ -18,7 +18,6 @@ $regex: #e6db74 !default;
 $string-escape: #ae81ff !default;
 //$deleted: $apple-blossom !default;
 //$header: $hippie-blue !default;
-}
 
 @import "{{ site.theme }}";
 
