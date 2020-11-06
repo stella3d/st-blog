@@ -1,6 +1,8 @@
 ---
 title:  "Unity WebGL Interop - Buffers"
 layout: default
+category: technical
+tags: unity webgl
 ---
 
 # Unity WebGL Interop - Buffers
