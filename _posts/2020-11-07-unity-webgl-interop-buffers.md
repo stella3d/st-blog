@@ -1,5 +1,6 @@
 ---
 title:  "Unity WebGL Interop - Buffers"
+layout: default
 ---
 
 # Unity WebGL Interop - Buffers
