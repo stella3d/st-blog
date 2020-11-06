@@ -21,10 +21,21 @@ In C#, we have two parts: the class that actually handles the communication, and
 
 In MessageBuffer.cs:
 ```csharp
-class MessageBuffer
+using System;
+
+public struct MidiMessage
+{
+  public byte StatusAndChannel;
+  public byte Data1;
+  public byte Data2;
+}
+
+public class MessageBuffer
 {
   byte[] m_MessageBuffer;
   double[] m_TimestampBuffer;
+  
+  Action<MidiMessage>[] m_InputDeviceHandlers;
   
   static void Initialize()
   {
