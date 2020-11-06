@@ -1,8 +1,8 @@
 ---
-title:  "Unity WebGL Interop - Message Buffers"
+title:  "Unity WebGL Interop - Buffers"
 ---
 
-# Unity WebGL Interop - Message Buffers
+# Unity WebGL Interop - Buffers
 
 
 
