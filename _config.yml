@@ -7,6 +7,6 @@ posts:
   _posts/2020-11-04-test-post:
     url: test-post
     title: Test Post
-  _posts/unity-webgl-interop-buffers:
+  _posts/2020-11-7-unity-webgl-interop-buffers:
     url: unity-webgl-interop-buffers
     title: Unity WebGL Interop - Buffers
