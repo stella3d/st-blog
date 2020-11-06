@@ -3,6 +3,9 @@
 
 @import "{{ site.theme }}";
 
+// syntax highlighting theme
+@import "monokai.css";
+
 body {
   color: #bdf6ff !important;
 }
