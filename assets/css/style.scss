@@ -22,14 +22,7 @@ $apple-blossom: #A95249;
   $string-escape: #ae81ff !default;
   $deleted: $apple-blossom !default;
   $header: $hippie-blue !default;
-}
-
-@import "{{ site.theme }}";
-
-// syntax highlighting theme
-//@import "monokai.css";
-
-.highlight {
+  
   color: $plaintext;
 
   table td { padding: 5px; }
@@ -91,6 +84,11 @@ $apple-blossom: #A95249;
     color: $string;
   }
 }
+
+@import "{{ site.theme }}";
+
+// syntax highlighting theme
+//@import "monokai.css";
 
 body {
   color: #bdf6ff !important;
