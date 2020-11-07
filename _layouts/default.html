@@ -26,9 +26,9 @@
       </section>
       
       <ul>
-        <h2>Posts by category</h2>
+        <h3>Posts by category</h3>
         {% for category in site.categories %}
-          <h4>{{ category[0] }}</h4>
+          {{ category[0] }}
           {% for post in category[1] %}
             {% if post.title != page.title %}
               <li><a href="{{ post.url }}">{{ post.title }}</a></li>
