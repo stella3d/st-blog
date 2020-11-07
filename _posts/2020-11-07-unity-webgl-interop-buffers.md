@@ -20,7 +20,7 @@ I recommend reading it first if you haven't.
 For this example, what we want to do is receive [MIDI message](https://en.wikipedia.org/wiki/MIDI#Messages) input in Unity from a hardware MIDI controller, via the browser's [Web MIDI API](https://www.w3.org/TR/webmidi/).
 
 
-#### Unity
+### Unity
 
 In C#, we have a few parts. 
 First, a static class with the data we're going to share with JavaScript, and some `[DllImport]` methods that call JavaScript functions.  
@@ -108,7 +108,7 @@ public class MessageBuffer
 ```
 
 
-#### Browser
+### Browser
 ```js
 const nice = 69;
 
