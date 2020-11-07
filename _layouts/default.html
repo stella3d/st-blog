@@ -31,23 +31,12 @@
           {{ category[0] }}
           {% for post in category[1] %}
             {% if post.title != page.title %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              <li style="margin-left: 20px"><a href="{{ post.url }}">{{ post.title }}</a></li>
             {% endif %}
           {% endfor %}
         {% endfor %}
-        
-        <!--
-        Posts
-        {% for post in site.posts %}
-          {% if post.title != page.title %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-        -->
       </ul>
-    </div>
-    
-
+    </div
 
     {% if site.google_analytics %}
       <script>
