@@ -6,12 +6,9 @@ tags: unity webgl
 ---
 
 # Unity WebGL Interop - Buffers
-
-There's a lot of useful web APIs available in the browser
-
 _This article assumes some basic familiarity with Unity, C#, & JavaScript._
 
-`TODO STELLA - mention why you would want to do this in a generic way`
+There's a lot of useful web APIs available in the browser, which we might want to use in Unity.  
 
 The [Unity documentation on interaction with browser scripting](https://docs.unity3d.com/Manual/webgl-interactingwithbrowserscripting.html) covers the basics of passing strings & primitive types between C# & JS, and mentions in passing how to handle arrays.
 I recommend reading it first if you haven't. 
