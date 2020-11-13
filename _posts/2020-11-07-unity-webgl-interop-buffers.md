@@ -66,6 +66,7 @@ However, to take advantage of [typed arrays in JS](https://developer.mozilla.org
 We're going to do 2 things to solve this:
 
 1) Switching our data to a [structure-of-arrays](https://en.wikipedia.org/wiki/AoS_and_SoA) (SoA) layout
+
 2) Grouping data elements by primitive type
 
 ```csharp
